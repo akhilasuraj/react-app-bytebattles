@@ -1,0 +1,43 @@
+.form-input-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    margin-right: 6vw;
+
+    .data-row {
+        display: flex;
+        align-items: center;
+        margin: 0.5rem;
+        width: 100%;
+
+        .label-col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+
+            .label {
+                padding-right: 3rem;
+                margin-bottom: 0 !important;
+                font-weight: 600;
+            }
+        }
+
+        .input-col {
+
+            .input-field {
+                width: 20rem;
+                border: .15rem solid black;
+                border-radius: 0;
+                font-weight: 600;
+                box-shadow: none;
+            }
+
+            .view-mode {
+                border: none;
+                background-color: transparent;
+            }
+        }
+    }
+}

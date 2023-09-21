@@ -1,0 +1,101 @@
+.identity-transfer-container {
+    width: 100%;
+
+    .identity-transfer-title {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .identity-transfer-input-fields {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+
+        .data-row {
+            display: flex;
+            align-items: center;
+            margin: 0.5rem;
+            width: 100%;
+
+            .checkbox-col {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+
+                .checkbox-input {
+                    border: .15rem solid black;
+                    margin: 0;
+                }
+
+                .checkbox-input:focus {
+                    box-shadow: none;
+                }
+
+                .checkbox-input:checked {
+                    background-color: black;
+                }
+            }
+
+            .botom-input-label-col {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+
+                .botom-input-label {
+                    margin: 0;
+                    font-weight: 600;
+                }
+            }
+
+            .bottom-input-col {
+                .bottom-input {
+                    width: 35vw;
+                    box-shadow: none;
+                    border: .15rem solid black;
+                    border-radius: 0;
+                }
+            }
+
+            .label-col {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+
+                .checkbox-label {
+                    padding-left: 1rem;
+                    margin-bottom: 0 !important;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .identity-transfer-button-container {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 1rem;
+
+            .cancel-button {
+                margin: .5rem;
+                font-family: sans-serif;
+                font-weight: 600;
+                background-color: transparent;
+                border: 0.15rem solid black;
+                color: black;
+            }
+
+            .give-permission-button {
+                margin: .5rem;
+                font-family: sans-serif;
+                font-weight: 600;
+                background-color: black;
+                border: 0.15rem solid black;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.requests-page-container {
+    width: 100%;
+
+    .requests-page-title {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .requests-list {
+        margin-top: 1rem;
+
+        .request-card {
+            width: 40vw;
+            background-color: rgb(197, 197, 197);
+            font-weight: 500;
+            padding: 0.5rem;
+            margin: 1rem;
+        }
+    }
+}
